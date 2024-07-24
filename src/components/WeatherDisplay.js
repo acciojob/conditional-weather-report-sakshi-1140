@@ -12,7 +12,7 @@ function WeatherDisplay({temperature,conditions}) {
                 {temperature}
             </span>
         </p>
-        <p>Conditons : {conditions}</p>
+        <p>Conditions : {conditions}</p>
     </div>
   )
 }
