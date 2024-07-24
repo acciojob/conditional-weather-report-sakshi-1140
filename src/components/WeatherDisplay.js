@@ -7,9 +7,9 @@ function WeatherDisplay({temperature,conditions}) {
   return (
     <div>
         <p>
-            Temperatur : {" "}
+            Temperature:{" "}
             <span style={tempStyle}>
-                {temperature}°C
+                {temperature}
             </span>
         </p>
         <p>Conditons : {conditions}</p>
